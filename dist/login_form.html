@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="flex h-screen  bg-slate-900 justify-center items-center " style="padding: 0px 12px;">
+          <div class="h-[420px] w-[452px] backdrop-blur-2xl bg-gray-800 border-solid border-[1px] border-gray-500 p-8 rounded-md flex flex-col justify-evenly">
+              <h1 class="text-white text-2xl font-bold">Sign in to your account</h1>
+              <form class="flex flex-col justify-evenly">
+                <label for="email" class="mb-2 text-sm text-white font-semibold">Your email</label>
+                <input type="email" id="email" placeholder="name@company.com" class="bg-gray-500 mb-5 text-sm p-4 rounded-md placeholder-gray-50 text-white">
+                <label for="pass" class="mb-2 text-sm text-white font-semibold">Password</label>
+                <input type="password"  id="pass" placeholder="***********" class="bg-gray-500 mb-2 text-sm p-4 rounded-md placeholder-gray-50 text-white">
+              </form>
+              <div class="flex justify-between">
+                <div>
+                    <input type="checkbox" id="check">
+                    <label for="check" class="text-white text-sm font-normal">Remember me</label>
+                </div>
+                <a href="#" class="no-underline text-blue-600 font-medium hover:underline">Forgot password?</a>
+              </div>
+
+              <button class="bg-blue-600 text-white text-lg font-semibold rounded-lg py-2 mt-3 hover:opacity-90">Sign in</button>
+
+              <div>
+                <p class="text-gray-300 text-sm font-normal mt-4">Don't have an account yet ?  <a href="#" class="text-blue-600 no-underline hover:underline font-semibold">Sign up</a></p>
+              </div>
+          </div>
+    </div>
+</body>
+</html>
